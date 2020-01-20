@@ -43,7 +43,7 @@ Installation
 ------------
 
 ```sh
-npm install --save sweetalert2
+npm install --save ngx-angular8-sweetalert2
 ```
 
 Or grab from [jsdelivr CDN](https://www.jsdelivr.com/package/npm/sweetalert2)
@@ -58,7 +58,7 @@ Usage
 -----
 
 ```html
-<script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="ngx-angular8-sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 <!-- Include a polyfill for ES6 Promises (optional) for IE11 -->
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill9/dist/polyfill.js"></script>
@@ -75,28 +75,28 @@ Or:
 
 ```js
 // ES6 Modules or TypeScript
-import Swal from 'sweetalert2'
+import Swal from 'ngx-angular8-sweetalert2'
 
 // CommonJS
-const Swal = require('sweetalert2')
+const Swal = require('ngx-angular8-sweetalert2')
 ```
 
 Or with JS modules:
 
 ```html
-<link rel="stylesheet" href="sweetalert2/dist/sweetalert2.css">
+<link rel="stylesheet" href="ngx-angular8-sweetalert2/dist/sweetalert2.css">
 
 <script type="module">
-  import Swal from 'sweetalert2/src/sweetalert2.js'
+  import Swal from 'ngx-angular8-sweetalert2/src/sweetalert2.js'
 </script>
 ```
 
 It's possible to import JS and CSS separately, e.g. if you need to customize styles:
 
 ```js
-import Swal from 'sweetalert2/dist/sweetalert2.js'
+import Swal from 'ngx-angular8-sweetalert2/dist/sweetalert2.js'
 
-import 'sweetalert2/src/sweetalert2.scss'
+import 'ngx-angular8-sweetalert2/src/sweetalert2.scss'
 ```
 
 Please note that [TypeScript is well-supported](https://github.com/sweetalert2/sweetalert2/blob/master/sweetalert2.d.ts), so you don't have to install a third-party declaration file.
