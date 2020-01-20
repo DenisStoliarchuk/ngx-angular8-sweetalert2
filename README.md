@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="/assets/swal2-logo.png" alt="SweetAlert2"> FIXED JSDOC ISSUE!
+  <img src="/assets/swal2-logo.png" alt="SweetAlert2">
+</p>
+
+<p align="center">
+  FIXED JSDOC ISSUE!
 </p>
 
 <p align="center">
