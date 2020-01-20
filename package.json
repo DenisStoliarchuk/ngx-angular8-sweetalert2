@@ -1,13 +1,16 @@
 {
   "name": "ngx-angular8-sweetalert2",
-  "version": "9.8.0",
-  "repository": "DenisGold/ngx-angular8-sweetalert2",
-  "homepage": "https://sweetalert2.github.io/",
+  "version": "9.8.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisGold/ngx-angular8-sweetalert2.git"
+  },
+  "homepage": "https://github.com/DenisGold/ngx-angular8-sweetalert2#readme",
   "description": "Fixed JSDoc Issue! A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
   "main": "dist/sweetalert2.all.js",
   "browser": "dist/sweetalert2.all.js",
   "module": "src/sweetalert2.js",
-  "types": "sweetalert2.d.ts",
+  "types": "ngx-angular8-sweetalert2.d.ts",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-object-assign": "^7.2.0",
@@ -23,7 +26,7 @@
     "cypress": "^3.8.1",
     "eslint": "^6.0.0",
     "eslint-plugin-cypress": "^2.8.1",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -93,13 +96,8 @@
     "cy:run:headless": "cypress run --headless --browser chrome --config supportFile=cypress/support/ci.js",
     "test": "karma start karma.conf.js --single-run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DenisGold/ngx-angular8-sweetalert2.git"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DenisGold/ngx-angular8-sweetalert2/issues"
-  },
-  "homepage": "https://github.com/DenisGold/ngx-angular8-sweetalert2#readme"
+  }
 }
